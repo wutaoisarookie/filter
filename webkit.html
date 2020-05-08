@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>webkit-filter</title>
+	<style type="text/css">
+		.img1{
+			display: block;
+			margin:0 auto;
+			-webkit-filter:grayscale(1);
+			/*灰度*/
+			transition: all 3s;
+		}
+		.img1:hover{
+			-webkit-filter:none;
+			/*亮度*/
+		}
+		.img2{
+			display: block;
+			margin:0 auto;
+			-webkit-filter:brightness(2);
+			/*灰度*/
+			transition: all 3s;
+		}
+		.img2:hover{
+			-webkit-filter:none;
+			/*亮度*/
+		}
+		.img3{
+			display: block;
+			margin:0 auto;
+			-webkit-filter:blur(10px);
+			/*灰度*/
+			transition: all 3s;
+		}
+		.img3:hover{
+			-webkit-filter:none;
+			/*亮度*/
+		}
+		.img4{
+			display: block;
+			margin:0 auto;
+			-webkit-filter:contrast(4);
+			/*灰度*/
+			transition: all 3s;
+		}
+		.img4:hover{
+			-webkit-filter:none;
+			/*亮度*/
+		}
+		.img5{
+			display: block;
+			margin:0 auto;
+			-webkit-filter:saturate(4);
+			/*灰度*/
+			transition: all 3s;
+		}
+		.img5:hover{
+			-webkit-filter:none;
+			/*亮度*/
+		}
+
+		.img6{
+			display: block;
+			margin:0 auto;
+			-webkit-filter:contrast(40) grayscale(1);
+			/*灰度*/
+			transition: all 3s;
+		}
+		.img6:hover{
+			-webkit-filter:contrast(1) grayscale(1);
+			/*亮度*/
+		}
+	</style>
+</head>
+<body>
+	<img class="img1" src="images/weien.jfif">
+	<img class="img2" src="images/weien.jfif">
+	<img class="img3" src="images/weien.jfif">
+	<img class="img4" src="images/weien.jfif">
+	<img class="img5" src="images/weien.jfif">
+	<img class="img6" src="images/weien.jfif">
+</body>
+</html>
